@@ -61,7 +61,7 @@ export function FeaturedStory({ story }: FeaturedStoryProps) {
           >
             <div className="relative aspect-[16/10] overflow-hidden bg-[var(--surface)]">
               <Image
-                src={story.coverImage}
+                src={story.coverImage ?? ""}
                 alt=""
                 fill
                 unoptimized
